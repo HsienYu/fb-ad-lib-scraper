@@ -4,11 +4,15 @@ import time
 import requests
 from bs4 import BeautifulSoup as bSoup
 from selenium import webdriver
+from selenium.webdriver.firefox.options import Options as FirefoxOptions
 
-url = "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=TW&q=nike&sort_data[direction]=desc&sort_data[mode]=relevancy_monthly_grouped&search_type=keyword_unordered&media_type=all"
+url = "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=TW&q=最划算&sort_data[direction]=desc&sort_data[mode]=relevancy_monthly_grouped&search_type=keyword_unordered&media_type=all"
+
 
 # driver = webdriver.Chrome(executable_path="//")
-driver = webdriver.Firefox()
+options = FirefoxOptions()
+options.add_argument("--headless")
+driver = webdriver.Firefox(options=options)
 driver.get(url)
 
 iterations = 0
