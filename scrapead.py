@@ -2,21 +2,41 @@ import os
 import shutil
 import time
 import requests
+import argparse
 from bs4 import BeautifulSoup as bSoup
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options as FirefoxOptions
 
-url = "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=TW&q=最划算&sort_data[direction]=desc&sort_data[mode]=relevancy_monthly_grouped&search_type=keyword_unordered&media_type=all"
+# create arg for commandline
+parser = argparse.ArgumentParser()
+parser.add_argument("-k", "--keyword", type=str,
+                    required=True, help="keyword for fb ads searches")
+parser.add_argument("-l", "--location", type=str,
+                    required=True, help="country or location ex. TW")
+parser.add_argument("-i", "--max_iterations", type=int,
+                    required=True, help="max_iterations counting times")
+args = parser.parse_args()
 
+print(args)
 
-# driver = webdriver.Chrome(executable_path="//")
+keyword = args.keyword
+location = args.location
+max_iterations = args.max_iterations
+
+# url of fb ads library
+url = "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=" + location+"&q="+keyword + \
+    "&sort_data[direction]=desc&sort_data[mode]=relevancy_monthly_grouped&search_type=keyword_unordered&media_type=all"
+
+# define webdriver
 options = FirefoxOptions()
 options.add_argument("--headless")
 driver = webdriver.Firefox(options=options)
 driver.get(url)
 
+# main action
+
 iterations = 0
-while iterations < 10:
+while iterations < max_iterations:
     html = driver.execute_script("return document.documentElement.outerHTML")
     sel_soup = bSoup(html, 'html.parser')
     print(sel_soup.findAll('img'))
