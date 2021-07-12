@@ -7,6 +7,7 @@ import argparse
 from bs4 import BeautifulSoup as bSoup
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options as FirefoxOptions
+from colorthief import ColorThief
 
 
 # create arg for commandline
@@ -59,7 +60,7 @@ while iterations < max_iterations:
             file_name = os.path.basename(img)
             root_name = img.split("?")[0]
             result_name = os.path.basename(root_name)
-            print(result_name, ',url=', img)
+            # print(result_name, ',url=', img)
             img_r = requests.get(img, stream=True)
             new_path = os.path.join(
                 current_path, 'images', result_name)
