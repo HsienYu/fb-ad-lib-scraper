@@ -17,6 +17,10 @@ parser.add_argument("-l", "--location", type=str,
                     required=True, help="country or location ex. TW")
 parser.add_argument("-i", "--max_iterations", type=int,
                     required=True, help="max_iterations counting times")
+parser.add_argument("-cq", "--colorQuality", type=int,
+                    required=True, help="quality settings, 1 is the highest quality, the bigger the number, the faster the palette generation, but the greater the likelihood that colors will be missed.")
+parser.add_argument("-cp", "--colorPalette", type=int,
+                    required=True, help="the size of the palette, max number of colors")
 args = parser.parse_args()
 
 # print(args)
@@ -40,9 +44,6 @@ driver.get(url)
 iterations = 0
 
 
-def create_json_object():
-
-
 while iterations < max_iterations:
     html = driver.execute_script("return document.documentElement.outerHTML")
     sel_soup = bSoup(html, 'html.parser')
@@ -58,7 +59,7 @@ while iterations < max_iterations:
             file_name = os.path.basename(img)
             root_name = img.split("?")[0]
             result_name = os.path.basename(root_name)
-            print(result_name, 'url= ', img)
+            print(result_name, ',url=', img)
             img_r = requests.get(img, stream=True)
             new_path = os.path.join(
                 current_path, 'images', result_name)
