@@ -834,3 +834,375 @@ JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ivNM4/yv/l/zh_TW/kcHq
 * Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1626086931974	geckodriver	INFO	Listening on 127.0.0.1:62027
+1626086932982	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/var/folders/wn/3g_61cpx3cv27v3h4pjsn0gm0000gn/T/rust_mozprofileFDtqEc"
+*** You are running in headless mode.
+1626086933571	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/wn/3g_61cpx3cv27v3h4pjsn0gm0000gn/T/rust_mozprofileFDtqEc/search.json.mozlz4", (void 0)))
+1626086934937	Marionette	INFO	Listening on port 62042
+1626086935047	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ivNM4/yv/l/zh_TW/kcHqTtwfUEG.js?_nc_x=Ij3Wp8lg5Kz, line 23: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ivNM4/yv/l/zh_TW/kcHqTtwfUEG.js?_nc_x=Ij3Wp8lg5Kz, line 23: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+1626087007079	geckodriver	INFO	Listening on 127.0.0.1:62806
+1626087008094	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/var/folders/wn/3g_61cpx3cv27v3h4pjsn0gm0000gn/T/rust_mozprofileIdW4MA"
+*** You are running in headless mode.
+1626087008676	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/wn/3g_61cpx3cv27v3h4pjsn0gm0000gn/T/rust_mozprofileIdW4MA/search.json.mozlz4", (void 0)))
+1626087010238	Marionette	INFO	Listening on port 62816
+1626087010374	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ivNM4/yv/l/zh_TW/kcHqTtwfUEG.js?_nc_x=Ij3Wp8lg5Kz, line 23: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ivNM4/yv/l/zh_TW/kcHqTtwfUEG.js?_nc_x=Ij3Wp8lg5Kz, line 23: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+1626087174966	geckodriver	INFO	Listening on 127.0.0.1:63527
+1626087175976	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/var/folders/wn/3g_61cpx3cv27v3h4pjsn0gm0000gn/T/rust_mozprofiletU0My9"
+*** You are running in headless mode.
+1626087176603	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/wn/3g_61cpx3cv27v3h4pjsn0gm0000gn/T/rust_mozprofiletU0My9/search.json.mozlz4", (void 0)))
+1626087178068	Marionette	INFO	Listening on port 63535
+1626087178153	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ivNM4/yv/l/zh_TW/kcHqTtwfUEG.js?_nc_x=Ij3Wp8lg5Kz, line 23: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ivNM4/yv/l/zh_TW/kcHqTtwfUEG.js?_nc_x=Ij3Wp8lg5Kz, line 23: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1626087656968	geckodriver	INFO	Listening on 127.0.0.1:65242
+1626087657982	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/var/folders/wn/3g_61cpx3cv27v3h4pjsn0gm0000gn/T/rust_mozprofilexTupVq"
+*** You are running in headless mode.
+1626087658567	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/wn/3g_61cpx3cv27v3h4pjsn0gm0000gn/T/rust_mozprofilexTupVq/search.json.mozlz4", (void 0)))
+1626087659955	Marionette	INFO	Listening on port 65252
+1626087660080	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ivNM4/yv/l/zh_TW/kcHqTtwfUEG.js?_nc_x=Ij3Wp8lg5Kz, line 23: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ivNM4/yv/l/zh_TW/kcHqTtwfUEG.js?_nc_x=Ij3Wp8lg5Kz, line 23: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1626089211122	geckodriver	INFO	Listening on 127.0.0.1:51943
+1626089212133	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/var/folders/wn/3g_61cpx3cv27v3h4pjsn0gm0000gn/T/rust_mozprofilepaNAs8"
+*** You are running in headless mode.
+1626089212743	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/wn/3g_61cpx3cv27v3h4pjsn0gm0000gn/T/rust_mozprofilepaNAs8/search.json.mozlz4", (void 0)))
+1626089214464	Marionette	INFO	Listening on port 51952
+1626089214548	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ivNM4/yv/l/zh_TW/kcHqTtwfUEG.js?_nc_x=Ij3Wp8lg5Kz, line 23: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ivNM4/yv/l/zh_TW/kcHqTtwfUEG.js?_nc_x=Ij3Wp8lg5Kz, line 23: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1626089247037	geckodriver	INFO	Listening on 127.0.0.1:52242
+1626089248053	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/var/folders/wn/3g_61cpx3cv27v3h4pjsn0gm0000gn/T/rust_mozprofilexpajKI"
+*** You are running in headless mode.
+1626089248603	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/wn/3g_61cpx3cv27v3h4pjsn0gm0000gn/T/rust_mozprofilexpajKI/search.json.mozlz4", (void 0)))
+1626089250445	Marionette	INFO	Listening on port 52250
+1626089250584	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.facebook.com/rsrc.php/v3ivNM4/yv/l/zh_TW/kcHqTtwfUEG.js?_nc_x=Ij3Wp8lg5Kz, line 23: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://www.facebook.com/rsrc.php/v3ivNM4/yv/l/zh_TW/kcHqTtwfUEG.js?_nc_x=Ij3Wp8lg5Kz, line 23: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+1626089318245	geckodriver	INFO	Listening on 127.0.0.1:52677
+1626089319262	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/var/folders/wn/3g_61cpx3cv27v3h4pjsn0gm0000gn/T/rust_mozprofileVJpBC9"
+*** You are running in headless mode.
+1626089319866	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/wn/3g_61cpx3cv27v3h4pjsn0gm0000gn/T/rust_mozprofileVJpBC9/search.json.mozlz4", (void 0)))
+1626089321512	Marionette	INFO	Listening on port 52688
+1626089321601	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ivNM4/yv/l/zh_TW/kcHqTtwfUEG.js?_nc_x=Ij3Wp8lg5Kz, line 23: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ivNM4/yv/l/zh_TW/kcHqTtwfUEG.js?_nc_x=Ij3Wp8lg5Kz, line 23: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1626091342600	geckodriver	INFO	Listening on 127.0.0.1:56108
+1626091343601	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/var/folders/wn/3g_61cpx3cv27v3h4pjsn0gm0000gn/T/rust_mozprofilecu9Kcj"
+*** You are running in headless mode.
+1626091344222	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/wn/3g_61cpx3cv27v3h4pjsn0gm0000gn/T/rust_mozprofilecu9Kcj/search.json.mozlz4", (void 0)))
+1626091345999	Marionette	INFO	Listening on port 56117
+1626091346097	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.facebook.com/rsrc.php/v3ivNM4/yv/l/zh_TW/kcHqTtwfUEG.js?_nc_x=Ij3Wp8lg5Kz, line 23: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://www.facebook.com/rsrc.php/v3ivNM4/yv/l/zh_TW/kcHqTtwfUEG.js?_nc_x=Ij3Wp8lg5Kz, line 23: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+1626091506762	geckodriver	INFO	Listening on 127.0.0.1:56765
+1626091507775	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/var/folders/wn/3g_61cpx3cv27v3h4pjsn0gm0000gn/T/rust_mozprofileQBbjdw"
+*** You are running in headless mode.
+1626091508410	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/wn/3g_61cpx3cv27v3h4pjsn0gm0000gn/T/rust_mozprofileQBbjdw/search.json.mozlz4", (void 0)))
+1626091510454	Marionette	INFO	Listening on port 56773
+1626091510530	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ivNM4/yv/l/zh_TW/kcHqTtwfUEG.js?_nc_x=Ij3Wp8lg5Kz, line 23: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ivNM4/yv/l/zh_TW/kcHqTtwfUEG.js?_nc_x=Ij3Wp8lg5Kz, line 23: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+1626091602050	geckodriver	INFO	Listening on 127.0.0.1:57121
+1626091603057	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/var/folders/wn/3g_61cpx3cv27v3h4pjsn0gm0000gn/T/rust_mozprofilekTa8ly"
+*** You are running in headless mode.
+1626091603679	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/wn/3g_61cpx3cv27v3h4pjsn0gm0000gn/T/rust_mozprofilekTa8ly/search.json.mozlz4", (void 0)))
+1626091605976	Marionette	INFO	Listening on port 57129
+1626091606066	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ivNM4/yv/l/zh_TW/kcHqTtwfUEG.js?_nc_x=Ij3Wp8lg5Kz, line 23: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ivNM4/yv/l/zh_TW/kcHqTtwfUEG.js?_nc_x=Ij3Wp8lg5Kz, line 23: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1626091930898	geckodriver	INFO	Listening on 127.0.0.1:58056
+1626091931906	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/var/folders/wn/3g_61cpx3cv27v3h4pjsn0gm0000gn/T/rust_mozprofilee8NecP"
+*** You are running in headless mode.
+1626091932543	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/wn/3g_61cpx3cv27v3h4pjsn0gm0000gn/T/rust_mozprofilee8NecP/search.json.mozlz4", (void 0)))
+1626091934414	Marionette	INFO	Listening on port 58066
+1626091934577	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ivNM4/yv/l/zh_TW/kcHqTtwfUEG.js?_nc_x=Ij3Wp8lg5Kz, line 23: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ivNM4/yv/l/zh_TW/kcHqTtwfUEG.js?_nc_x=Ij3Wp8lg5Kz, line 23: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+1626091978743	geckodriver	INFO	Listening on 127.0.0.1:58384
+1626091979762	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/var/folders/wn/3g_61cpx3cv27v3h4pjsn0gm0000gn/T/rust_mozprofileauWwHV"
+*** You are running in headless mode.
+1626091980361	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/wn/3g_61cpx3cv27v3h4pjsn0gm0000gn/T/rust_mozprofileauWwHV/search.json.mozlz4", (void 0)))
+1626091982157	Marionette	INFO	Listening on port 58393
+1626091982491	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.facebook.com/rsrc.php/v3ivNM4/yv/l/zh_TW/kcHqTtwfUEG.js?_nc_x=Ij3Wp8lg5Kz, line 23: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://www.facebook.com/rsrc.php/v3ivNM4/yv/l/zh_TW/kcHqTtwfUEG.js?_nc_x=Ij3Wp8lg5Kz, line 23: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1626092044366	geckodriver	INFO	Listening on 127.0.0.1:58753
+1626092045382	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/var/folders/wn/3g_61cpx3cv27v3h4pjsn0gm0000gn/T/rust_mozprofilePnBMsl"
+*** You are running in headless mode.
+1626092045951	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/wn/3g_61cpx3cv27v3h4pjsn0gm0000gn/T/rust_mozprofilePnBMsl/search.json.mozlz4", (void 0)))
+1626092047454	Marionette	INFO	Listening on port 58761
+1626092047563	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ivNM4/yv/l/zh_TW/kcHqTtwfUEG.js?_nc_x=Ij3Wp8lg5Kz, line 23: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ivNM4/yv/l/zh_TW/kcHqTtwfUEG.js?_nc_x=Ij3Wp8lg5Kz, line 23: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1626092290222	geckodriver	INFO	Listening on 127.0.0.1:59612
+1626092291237	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/var/folders/wn/3g_61cpx3cv27v3h4pjsn0gm0000gn/T/rust_mozprofilevtPTVP"
+*** You are running in headless mode.
+1626092291845	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/wn/3g_61cpx3cv27v3h4pjsn0gm0000gn/T/rust_mozprofilevtPTVP/search.json.mozlz4", (void 0)))
+1626092293463	Marionette	INFO	Listening on port 59621
+1626092293575	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ivNM4/yv/l/zh_TW/kcHqTtwfUEG.js?_nc_x=Ij3Wp8lg5Kz, line 23: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ivNM4/yv/l/zh_TW/kcHqTtwfUEG.js?_nc_x=Ij3Wp8lg5Kz, line 23: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+1626092398469	geckodriver	INFO	Listening on 127.0.0.1:60206
+1626092399485	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/var/folders/wn/3g_61cpx3cv27v3h4pjsn0gm0000gn/T/rust_mozprofilez3xp2s"
+*** You are running in headless mode.
+1626092400064	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/wn/3g_61cpx3cv27v3h4pjsn0gm0000gn/T/rust_mozprofilez3xp2s/search.json.mozlz4", (void 0)))
+1626092401552	Marionette	INFO	Listening on port 60214
+1626092401688	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ivNM4/yv/l/zh_TW/kcHqTtwfUEG.js?_nc_x=Ij3Wp8lg5Kz, line 23: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ivNM4/yv/l/zh_TW/kcHqTtwfUEG.js?_nc_x=Ij3Wp8lg5Kz, line 23: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1626092888176	geckodriver	INFO	Listening on 127.0.0.1:61715
+1626092889177	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/var/folders/wn/3g_61cpx3cv27v3h4pjsn0gm0000gn/T/rust_mozprofileUXhYDJ"
+*** You are running in headless mode.
+1626092889811	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/wn/3g_61cpx3cv27v3h4pjsn0gm0000gn/T/rust_mozprofileUXhYDJ/search.json.mozlz4", (void 0)))
+1626092891395	Marionette	INFO	Listening on port 61723
+1626092891459	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ivNM4/yv/l/zh_TW/kcHqTtwfUEG.js?_nc_x=Ij3Wp8lg5Kz, line 23: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ivNM4/yv/l/zh_TW/kcHqTtwfUEG.js?_nc_x=Ij3Wp8lg5Kz, line 23: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1626092964754	geckodriver	INFO	Listening on 127.0.0.1:62190
+1626092964768	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/var/folders/wn/3g_61cpx3cv27v3h4pjsn0gm0000gn/T/rust_mozprofileCLuuq9"
+*** You are running in headless mode.
+1626092965562	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/wn/3g_61cpx3cv27v3h4pjsn0gm0000gn/T/rust_mozprofileCLuuq9/search.json.mozlz4", (void 0)))
+1626092967425	Marionette	INFO	Listening on port 62195
+1626092967577	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ivNM4/yv/l/zh_TW/kcHqTtwfUEG.js?_nc_x=Ij3Wp8lg5Kz, line 23: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ivNM4/yv/l/zh_TW/kcHqTtwfUEG.js?_nc_x=Ij3Wp8lg5Kz, line 23: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+1626093127177	geckodriver	INFO	Listening on 127.0.0.1:62753
+1626093128195	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/var/folders/wn/3g_61cpx3cv27v3h4pjsn0gm0000gn/T/rust_mozprofileO5ypJE"
+*** You are running in headless mode.
+1626093128774	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/wn/3g_61cpx3cv27v3h4pjsn0gm0000gn/T/rust_mozprofileO5ypJE/search.json.mozlz4", (void 0)))
+1626093130162	Marionette	INFO	Listening on port 62761
+1626093130298	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.facebook.com/rsrc.php/v3ivNM4/yv/l/zh_TW/kcHqTtwfUEG.js?_nc_x=Ij3Wp8lg5Kz, line 23: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://www.facebook.com/rsrc.php/v3ivNM4/yv/l/zh_TW/kcHqTtwfUEG.js?_nc_x=Ij3Wp8lg5Kz, line 23: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1626093973222	geckodriver	INFO	Listening on 127.0.0.1:49226
+1626093974236	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/var/folders/wn/3g_61cpx3cv27v3h4pjsn0gm0000gn/T/rust_mozprofile2HRyOY"
+*** You are running in headless mode.
+1626093974842	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/wn/3g_61cpx3cv27v3h4pjsn0gm0000gn/T/rust_mozprofile2HRyOY/search.json.mozlz4", (void 0)))
+1626093976401	Marionette	INFO	Listening on port 49235
+1626093976556	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ivNM4/yv/l/zh_TW/kcHqTtwfUEG.js?_nc_x=Ij3Wp8lg5Kz, line 23: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ivNM4/yv/l/zh_TW/kcHqTtwfUEG.js?_nc_x=Ij3Wp8lg5Kz, line 23: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+1626094230332	geckodriver	INFO	Listening on 127.0.0.1:50162
+1626094231348	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/var/folders/wn/3g_61cpx3cv27v3h4pjsn0gm0000gn/T/rust_mozprofile9Ajv6H"
+*** You are running in headless mode.
+1626094231985	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/wn/3g_61cpx3cv27v3h4pjsn0gm0000gn/T/rust_mozprofile9Ajv6H/search.json.mozlz4", (void 0)))
+1626094233921	Marionette	INFO	Listening on port 50170
+1626094233974	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ivNM4/yv/l/zh_TW/kcHqTtwfUEG.js?_nc_x=Ij3Wp8lg5Kz, line 23: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ivNM4/yv/l/zh_TW/kcHqTtwfUEG.js?_nc_x=Ij3Wp8lg5Kz, line 23: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+1626094389815	geckodriver	INFO	Listening on 127.0.0.1:50730
+1626094390819	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/var/folders/wn/3g_61cpx3cv27v3h4pjsn0gm0000gn/T/rust_mozprofilefT2JZw"
+*** You are running in headless mode.
+1626094391408	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/wn/3g_61cpx3cv27v3h4pjsn0gm0000gn/T/rust_mozprofilefT2JZw/search.json.mozlz4", (void 0)))
+1626094393066	Marionette	INFO	Listening on port 50739
+1626094393104	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ivNM4/yv/l/zh_TW/kcHqTtwfUEG.js?_nc_x=Ij3Wp8lg5Kz, line 23: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ivNM4/yv/l/zh_TW/kcHqTtwfUEG.js?_nc_x=Ij3Wp8lg5Kz, line 23: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+1626094455255	geckodriver	INFO	Listening on 127.0.0.1:51083
+1626094456276	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/var/folders/wn/3g_61cpx3cv27v3h4pjsn0gm0000gn/T/rust_mozprofile0WyrIl"
+*** You are running in headless mode.
+1626094456898	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/wn/3g_61cpx3cv27v3h4pjsn0gm0000gn/T/rust_mozprofile0WyrIl/search.json.mozlz4", (void 0)))
+1626094458777	Marionette	INFO	Listening on port 51090
+1626094458843	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ivNM4/yv/l/zh_TW/kcHqTtwfUEG.js?_nc_x=Ij3Wp8lg5Kz, line 23: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ivNM4/yv/l/zh_TW/kcHqTtwfUEG.js?_nc_x=Ij3Wp8lg5Kz, line 23: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1626095053638	geckodriver	INFO	Listening on 127.0.0.1:52405
+1626095054642	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/var/folders/wn/3g_61cpx3cv27v3h4pjsn0gm0000gn/T/rust_mozprofileSp7CeQ"
+*** You are running in headless mode.
+1626095055211	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/wn/3g_61cpx3cv27v3h4pjsn0gm0000gn/T/rust_mozprofileSp7CeQ/search.json.mozlz4", (void 0)))
+1626095056880	Marionette	INFO	Listening on port 52413
+1626095056926	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ivNM4/yv/l/zh_TW/kcHqTtwfUEG.js?_nc_x=Ij3Wp8lg5Kz, line 23: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ivNM4/yv/l/zh_TW/kcHqTtwfUEG.js?_nc_x=Ij3Wp8lg5Kz, line 23: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1626095896753	geckodriver	INFO	Listening on 127.0.0.1:54494
+1626095897755	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/var/folders/wn/3g_61cpx3cv27v3h4pjsn0gm0000gn/T/rust_mozprofileo4pPBx"
+*** You are running in headless mode.
+1626095898374	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/wn/3g_61cpx3cv27v3h4pjsn0gm0000gn/T/rust_mozprofileo4pPBx/search.json.mozlz4", (void 0)))
+1626095899877	Marionette	INFO	Listening on port 54502
+1626095899946	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ivNM4/yv/l/zh_TW/kcHqTtwfUEG.js?_nc_x=Ij3Wp8lg5Kz, line 23: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ivNM4/yv/l/zh_TW/kcHqTtwfUEG.js?_nc_x=Ij3Wp8lg5Kz, line 23: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+1626096101719	geckodriver	INFO	Listening on 127.0.0.1:55301
+1626096102749	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/var/folders/wn/3g_61cpx3cv27v3h4pjsn0gm0000gn/T/rust_mozprofileJ3bqIF"
+*** You are running in headless mode.
+1626096103331	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/wn/3g_61cpx3cv27v3h4pjsn0gm0000gn/T/rust_mozprofileJ3bqIF/search.json.mozlz4", (void 0)))
+1626096105002	Marionette	INFO	Listening on port 55309
+1626096105068	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ivNM4/yv/l/zh_TW/kcHqTtwfUEG.js?_nc_x=Ij3Wp8lg5Kz, line 23: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ivNM4/yv/l/zh_TW/kcHqTtwfUEG.js?_nc_x=Ij3Wp8lg5Kz, line 23: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1626160445906	geckodriver	INFO	Listening on 127.0.0.1:65164
+1626160446921	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/var/folders/wn/3g_61cpx3cv27v3h4pjsn0gm0000gn/T/rust_mozprofilecqv2GU"
+*** You are running in headless mode.
+1626160447517	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/wn/3g_61cpx3cv27v3h4pjsn0gm0000gn/T/rust_mozprofilecqv2GU/search.json.mozlz4", (void 0)))
+1626160449018	Marionette	INFO	Listening on port 65175
+1626160449162	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.facebook.com/rsrc.php/v3ivNM4/yW/l/zh_TW/ShdIkFz9jV1.js?_nc_x=Ij3Wp8lg5Kz, line 23: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://www.facebook.com/rsrc.php/v3ivNM4/yW/l/zh_TW/ShdIkFz9jV1.js?_nc_x=Ij3Wp8lg5Kz, line 23: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+1626172471211	geckodriver	INFO	Listening on 127.0.0.1:65190
+1626172472210	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/var/folders/wn/3g_61cpx3cv27v3h4pjsn0gm0000gn/T/rust_mozprofileFabm0e"
+*** You are running in headless mode.
+1626172472817	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/wn/3g_61cpx3cv27v3h4pjsn0gm0000gn/T/rust_mozprofileFabm0e/search.json.mozlz4", (void 0)))
+1626172474999	Marionette	INFO	Listening on port 65198
+1626172475341	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.facebook.com/rsrc.php/v3ivNM4/yW/l/zh_TW/ShdIkFz9jV1.js?_nc_x=Ij3Wp8lg5Kz, line 23: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://www.facebook.com/rsrc.php/v3ivNM4/yW/l/zh_TW/ShdIkFz9jV1.js?_nc_x=Ij3Wp8lg5Kz, line 23: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1626179368478	geckodriver	INFO	Listening on 127.0.0.1:63745
+1626179369493	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/var/folders/wn/3g_61cpx3cv27v3h4pjsn0gm0000gn/T/rust_mozprofilepS9Qsa"
+*** You are running in headless mode.
+1626179370086	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/wn/3g_61cpx3cv27v3h4pjsn0gm0000gn/T/rust_mozprofilepS9Qsa/search.json.mozlz4", (void 0)))
+1626179371552	Marionette	INFO	Listening on port 63753
+1626179371711	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.facebook.com/rsrc.php/v3ivNM4/yW/l/zh_TW/ShdIkFz9jV1.js?_nc_x=Ij3Wp8lg5Kz, line 23: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://www.facebook.com/rsrc.php/v3ivNM4/yW/l/zh_TW/ShdIkFz9jV1.js?_nc_x=Ij3Wp8lg5Kz, line 23: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()

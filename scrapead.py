@@ -1,13 +1,16 @@
 import os
 import shutil
 import time
+import asyncio
 import datetime
 import requests
 import argparse
+import json
 from bs4 import BeautifulSoup as bSoup
+from colorthief import ColorThief
+from colormap import rgb2hex
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options as FirefoxOptions
-from colorthief import ColorThief
 
 
 # create arg for commandline
@@ -18,10 +21,10 @@ parser.add_argument("-l", "--location", type=str,
                     required=True, help="country or location ex. TW")
 parser.add_argument("-i", "--max_iterations", type=int,
                     required=True, help="max_iterations counting times")
-parser.add_argument("-cq", "--colorQuality", type=int,
-                    required=True, help="quality settings, 1 is the highest quality, the bigger the number, the faster the palette generation, but the greater the likelihood that colors will be missed.")
-parser.add_argument("-cp", "--colorPalette", type=int,
-                    required=True, help="the size of the palette, max number of colors")
+# parser.add_argument("-cq", "--colorQuality", type=int,
+#                     required=True, help="quality settings, 1 is the highest quality, the bigger the number, the faster the palette generation, but the greater the likelihood that colors will be missed.")
+# parser.add_argument("-cp", "--colorPalette", type=int,
+#                     required=True, help="the size of the palette, max number of colors")
 args = parser.parse_args()
 
 # print(args)
@@ -45,6 +48,35 @@ driver.get(url)
 iterations = 0
 
 
+# def appendList(entry):
+#     with open("data.json", mode='r', encoding='utf-8') as f:
+#         feeds = json.load(f)
+#         print(feeds)
+
+#     with open("data.json", mode='w', encoding='utf-8') as feedsjson:
+#         feeds.append(entry)
+#         print(json.dump(feeds, feedsjson))
+
+
+def detect_color(filePath, cp):
+    color_thief = ColorThief(filePath)
+    #dominant_color = color_thief.get_color(quality=cq)
+    palette_color = color_thief.get_palette(color_count=5)
+    c_arr = []
+    for c in palette_color:
+        c_arr.append(rgbTohex(c))
+
+    return c_arr
+
+
+def rgbTohex(c):
+    hex_color = rgb2hex(c[0], c[1], c[2])
+    rm_char = hex_color.replace("#", "")
+    result = rm_char.lower()
+
+    return result
+
+
 while iterations < max_iterations:
     html = driver.execute_script("return document.documentElement.outerHTML")
     sel_soup = bSoup(html, 'html.parser')
@@ -55,6 +87,8 @@ while iterations < max_iterations:
         images.append(src)
     current_path = os.getcwd()
     currentDT = datetime.datetime.now()
+    currentDate = currentDT.strftime("%Y/%m/%d")
+
     for img in images:
         try:
             file_name = os.path.basename(img)
@@ -64,9 +98,13 @@ while iterations < max_iterations:
             img_r = requests.get(img, stream=True)
             new_path = os.path.join(
                 current_path, 'images', result_name)
-
+            dict = {'keyword': keyword, 'url': img,
+                    'filePath': new_path, 'date': currentDate}
             with open(new_path, 'wb') as output_file:
                 output_file.write(img_r.content)
+                detectedColor = detect_color(dict["filePath"], 5)
+                dict['color'] = detectedColor
+                print(dict)
 
             del img_r
         except:
