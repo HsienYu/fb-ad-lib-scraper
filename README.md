@@ -12,7 +12,11 @@ install webdriver:
 brew cask install geckodriver
 ```
 
-example: `python scrapead.py -i 3 -k puma -l TW`
+example usage:
+
+```
+python scrapead.py -i 3 -k puma -l TW
+```
 
 args:
 
