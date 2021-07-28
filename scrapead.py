@@ -84,7 +84,13 @@ while iterations < max_iterations:
     images = []
     for i in sel_soup.findAll('img'):
         src = i['src']
-        images.append(src)
+        # quick remove low resolutiona & wrong image by string find
+        if src.find("s60x60") != -1 or src.find("p100x100") != -1 or src.find("KYEwFe_bozl") != -1 or src.find("hsts-pixel") != -1:
+            pass
+        else:
+            # print(src)
+            images.append(src)
+
     current_path = os.getcwd()
     currentDT = datetime.datetime.now()
     currentDate = currentDT.strftime("%Y/%m/%d")
