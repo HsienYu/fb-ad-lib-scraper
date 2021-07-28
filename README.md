@@ -12,7 +12,7 @@ install webdriver:
 brew cask install geckodriver
 ```
 
-example usage:
+example usage(make sure you create an images folder in the same directoty):
 
 ```
 python scrapead.py -i 3 -k puma -l TW
