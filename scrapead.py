@@ -84,6 +84,7 @@ while iterations < max_iterations:
     images = []
     for i in sel_soup.findAll('img'):
         src = i['src']
+        # images.append(src)
         # quick remove low resolutiona & wrong image by string find
         if src.find("s60x60") != -1 or src.find("p100x100") != -1 or src.find("KYEwFe_bozl") != -1 or src.find("hsts-pixel") != -1:
             pass
@@ -100,20 +101,20 @@ while iterations < max_iterations:
             file_name = os.path.basename(img)
             root_name = img.split("?")[0]
             result_name = os.path.basename(root_name)
-            # print(result_name, ',url=', img)
+            print(result_name, ',url=', img)
             img_r = requests.get(img, stream=True)
             new_path = os.path.join(
                 current_path, 'images', result_name)
-            dict = {'keyword': keyword, 'url': img,
-                    'filePath': new_path, 'date': currentDate}
+            # dict = {'keyword': keyword, 'url': img,
+            #         'filePath': new_path, 'date': currentDate}
             with open(new_path, 'wb') as output_file:
                 output_file.write(img_r.content)
-                detectedColor = detect_color(dict["filePath"], 5)
-                dict['color'] = detectedColor
-                print(dict)
+                # detectedColor = detect_color(dict["filePath"], 5)
+                # dict['color'] = detectedColor
+                # print(dict)
 
             del img_r
         except:
             pass
     iterations += 1
-    time.sleep(5)
+    time.sleep(10)
