@@ -8039,3 +8039,22 @@ Exiting due to channel error.
 Exiting due to channel error.
 [GFX1-]: Receive IPC close with reason=AbnormalShutdown
 Exiting due to channel error.
+1628527914300	geckodriver	INFO	Listening on 127.0.0.1:60958
+1628527915313	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/wn/3g_61cpx3cv27v3h4pjsn0gm0000gn/T/rust_mozprofile1eOHEh"
+1628527915941	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/wn/3g_61cpx3cv27v3h4pjsn0gm0000gn/T/rust_mozprofile1eOHEh/search.json.mozlz4", (void 0)))
+1628527918325	Marionette	INFO	Listening on port 60966
+1628527918425	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1628533706223	Marionette	INFO	Stopped listening on port 59800
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

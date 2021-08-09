@@ -15,8 +15,10 @@ brew cask install geckodriver
 example usage(make sure you create an images folder in the same directoty):
 
 ```
-python scrapead.py -i 3 -k puma -l TW
+python scrapead.py -i 1 -k puma -l TW
 ```
+
+**_MAX_ITERATIONS can be set as 1, if you want to just fetch all images by keywords, and it will take a while during fetching all contents and save the images._**
 
 args:
 
