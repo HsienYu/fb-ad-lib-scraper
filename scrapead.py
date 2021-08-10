@@ -35,7 +35,7 @@ max_iterations = args.max_iterations
 
 # url of fb ads library
 url = "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=" + location+"&q="+keyword + \
-    "&sort_data[direction]=desc&sort_data[mode]=relevancy_monthly_grouped&search_type=keyword_unordered&media_type=all"
+    "&sort_data[direction]=desc&sort_data[mode]=relevancy_monthly_grouped&search_type=keyword_unordered&media_type=image_and_meme"
 
 # define webdriver
 '''
@@ -72,6 +72,7 @@ def scroll(driver, timeout):
         new_height = driver.execute_script("return document.body.scrollHeight")
         if new_height == last_height:
             # If heights are the same it will exit the function
+            print("reach the end of whole contents")
             break
         last_height = new_height
 
@@ -116,7 +117,7 @@ while iterations < max_iterations:
     for i in sel_soup.findAll('img'):
         try:
             src = i['src']
-            if src.find("s60x60") != -1 or src.find("p100x100") != -1 or src.find("KYEwFe_bozl") != -1 or src.find("hsts-pixel") != -1:
+            if src.find("s60x60") != -1 or src.find("p100x100") != -1 or src.find("KYEwFe_bozl") != -1 or src.find("hsts-pixel") != -1 or src.find("6MXWcigxo") != -1:
                 pass
             else:
                 # print(src)
