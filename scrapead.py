@@ -112,7 +112,7 @@ while iterations < max_iterations:
     # else:
     #     scroll(driver, 3)
     #     print('fetching as many as possible contents in 10s each, this may takes a while!')
-    scroll(driver, 3)
+    scroll(driver, 5)
     print("fetching as many as possible contents in 10s each, this may takes a while!")
 
     html = driver.execute_script("return document.documentElement.outerHTML")
@@ -142,13 +142,13 @@ while iterations < max_iterations:
             img_r = requests.get(img, stream=True)
             new_path = os.path.join(
                 current_path, 'images', result_name)
-            dict = {'keyword': keyword, 'url': img,
-                    'filePath': new_path, 'date': currentDate}
+            # dict = {'keyword': keyword, 'url': img,
+            #         'filePath': new_path, 'date': currentDate}
             with open(new_path, 'wb') as output_file:
                 output_file.write(img_r.content)
-                detectedColor = detect_color(dict["filePath"], 5)
-                dict['color'] = detectedColor
-                print(dict)
+                # detectedColor = detect_color(dict["filePath"], 5)
+                # dict['color'] = detectedColor
+                # print(dict)
 
             del img_r
         except:
